@@ -13,6 +13,6 @@ start=1
 end=220
 while [ $start -lt $end ]
 do
-wget 0.0.0.0/folder/day_$i
-i=$((i+1))
+wget 0.0.0.0/folder/day_$start
+start=$((start+1))
 done
