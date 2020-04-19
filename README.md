@@ -14,22 +14,29 @@ Additional information:
 
 ## Week 1
 Setting up a data server
+
 Downloading and cleaning the data
+
 Dataload automation
 
 ## Week 2
 Data import to SQL, setting up SQL workbench
+
 SQL dataload automation
+
 Segment creation and analysis
 
 ## Week 3
 Business metrics
+
 Visualization in Google Data Studio
 
 ## Week 4
 Funnels for most important segments
+
 Cohort analysis in Python
 
 ## Week 5
 Prediction by regression (the number of registrations)
+
 Classification (unknown values predictions) / Machine Learning
