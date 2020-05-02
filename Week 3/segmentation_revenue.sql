@@ -14,7 +14,7 @@ ORDER BY revenue DESC;
 --invite_a_friend	46995
 --google		5897
 --article		555
---paid			0	zero means that these users send a super tree only once, therefore, they did not bring any revenue
+--paid			0	zero means that these users sent a super tree only once, therefore, they did not bring any revenue
 
 
 -- 2.What's the total revenue by phone_type? And by birth_year?
