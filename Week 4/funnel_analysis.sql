@@ -2,6 +2,7 @@
 --countries, sources, and phone types from the registration table.
 --Then one by one I add the distinct user IDs counts from the free_tree table and super_tree.
 --Lastly, I extract users who send more than one super tree, and add them also as a separate column to the final table.
+--This query was directly inserted into Google Data Studio -- the final report is saved as pdf in the folder Week 4.
 
 
 SELECT reg_free_super_f.user_id,
