@@ -58,3 +58,17 @@ GROUP BY reg_free_super_f.user_id,
          reg_free_super_f.registration,
          reg_free_super_f.free_tree,
          reg_free_super_f.super_tree_first;
+         
+--The query result looks like this (first 10 rows):
+--If a user sent free_tree, first super_tree, or paid super_tree, 1 would appear in the respective column.
+--user_id	source		phone_type	country		registration	free_tree	super_tree_firstsuper_tree_paid
+--1000001	invite_a_friend	android		sweden		1		1		0		0
+--1000002	invite_a_friend	ios		united_states	1		1		0		0
+--1000003	invite_a_friend	error		sweden		1		1		0		0
+--1000004	invite_a_friend	error		germany		1		0		0		0
+--1000005	invite_a_friend	ios		united_states	1		1		0		0
+--1000006	invite_a_friend	android		sweden		1		1		0		0
+--1000007	invite_a_friend	android		sweden		1		1		1		0
+--1000008	article		android		united_states	1		0		0		0
+--1000009	invite_a_friend	android		united_states	1		1		0		0
+--1000010	invite_a_friend	error		brazil		1		1		1		1
