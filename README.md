@@ -37,6 +37,6 @@ Funnels for most important segments
 Cohort analysis in Python
 
 ## Week 5
-Prediction by regression (the number of registrations)
+Prediction by linear regression (the number of registrations)
 
-Classification (unknown values predictions) / Machine Learning
+Classification (unknown values predictions) with Random Forests / Machine Learning
